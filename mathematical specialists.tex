@@ -1,0 +1,216 @@
+\documentclass[a4paper,10pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage{cancel}
+\usepackage[margin=2cm]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{apacite}
+
+% Title Page
+\title{Mathematical Specialists}
+\author{Lachlan Takumi Ikeguchi}
+
+
+\begin{document}
+	\maketitle
+	\tableofcontents
+
+	\begin{abstract}
+		This document was written to be used as a summary to help revise the content covered mathematical specialists.  For any inquiries, contact lachlanprivate@duck.com or through the discord server: https://discord.gg/6P8rddkXFr
+    \end{abstract}
+
+    \section{Important symbols}
+		\begin{center}
+			\begin{tabular}{l|lp{6cm}}
+				Symbol & Mathematical definition                                                  & Simple definition \\ \hline
+				$\cup$ & Union                                                                    & $A$ \emph{and} $B$, or think as in 'add'.\\
+				$\cap$ & Intersection                                                             & $A$ \emph{or} $B$, or think as in 'multiply'.\\
+				$n!$   & $n \times (n-1) \times (n-2) \times (n-3)... \times 3 \times 2 \times 1$ & The product of integers between the given value and 1.\\
+				$^nP_r$& $\frac{n!}{(n-1)!}$ 													  & The number of combinations there are of length $r$ from a group of length $n$ where the order matters.\\
+				$^nC_r$& $\frac{\frac{n!}{(n-1)!}}{r!}$                                           & The number of combinations there are of length $r$ from a group of length $n$ where the order does not matter.\\
+			\end{tabular}
+		\end{center}
+
+	\pagebreak
+
+	\section{Addition principle}
+		If there are $n$ ways of performing operation $A$, and $m$ ways of performing operation $B$, there are $n + m$ ways of performing operation $A \cap B$.\\
+
+		As in, let there be 2 ways to perform task $A$, and 3 ways to perform task $B$.  If there is an option to perform $A$ \emph{or} $B$, there is a total of $2 + 3 = 5$ ways to perform an operation.
+
+
+	\section{Multiplication principle}
+		If there are $n$ ways of performing operation $A$, and $m$ ways of performing operation $B$, there are $n \times m$ ways of performing operation $A \cup B$.\\
+
+		As in, let there be 4 ways to perform task $A$, and 5 ways to perform task $B$.  With considering 1 way to perform $A$, there are 5 ways to perform $B$, repeat the process through the number of ways to perform $A$.
+		\begin{center}
+			\begin{tabular}{l|lllll}
+				   & $B$, 1 & $B$, 2 & $B$, 3 & $B$, 4 & $B$, 5\\ \hline
+			$A$, 1 & (1, 1) & (1, 2) & (1, 3) & (1, 4) & (1, 5)\\
+			$A$, 2 & (2, 1) & (2, 2) & (2, 3) & (2, 4) & (2, 5)\\
+			$A$, 3 & (3, 1) & (3, 2) & (3, 3) & (3, 4) & (3, 5)\\
+			$A$, 4 & (4, 1) & (4, 2) & (4, 3) & (4, 4) & (4, 5)\\
+			\end{tabular}
+		\end{center}
+		Where there are $4 \times 5 = 20$ ways to perform the operations.
+
+
+	\section{Factorials}
+		Factorials is the result of multiplying all of the integers between the given integer and 1.  This is given the notation and formula:
+		$$
+			n! = n \times (n-1) \times (n-2) \times (n-3)... \times 3 \times 2 \times 1
+		$$
+		Example:\\
+		\begin{align*}
+			5! & = 5 \times 4 \times 3 \times 2 \times 1 \\
+			   & = 120
+		\end{align*}
+
+
+		\subsection{Dividing factorials}
+			When given some factorial over another factorial in such cases as:
+			$$\frac{4!}{2!}$$
+			$$\frac{4 \times 3 \times 2 \times 1}{2 \times 1}$$
+			$$\frac{4 \times 3 \times \cancel{2 \times 1}}{\cancel{2 \times 1}}$$
+			$$4 \times 3$$
+			$$12$$
+
+		\subsection{Special cases}
+			$$0! = 1$$
+
+
+	\section{Permutations}
+		Permutations is the number of ways of choosing $r$ things from $n$ distinct things where \emph{order matters}.  This is given the notation and formula:
+		$$
+			^nP_r = \frac{n!}{(n-r)!}
+		$$
+		Example:\\
+		\begin{align*}
+			^6P_4 & = \frac{6!}{(6 - 4)!} \\
+			      & = \frac{6!}{2!} \\
+			      & = \frac{6 \times 5 \times 4 \times 3 \times 2 \times 1}{2 \times 1} \\
+			      & = \frac{6 \times 5 \times 4 \times 3 \times \cancel{2 \times 1}}{\cancel{2 \times 1}} \\
+			      & = 6 \times 5 \times 4 \times 3 \\
+			      & = 360
+		\end{align*}
+
+		\subsection{Permutations in a circle}
+			In cases where the positions being concerned is a circle such as the permutations of a circular seating arrangement, if the standard permutations formula is applied, there are several over-counting of the like arrangement in a different perspective.  In these cases apply the formula:
+			$$
+				\frac{^nP_r}{r} = \frac{\frac{n!}{(n-r)!}}{r}
+			$$
+
+		\subsection{Like objects repetitions}
+			The number of ways of arranging $n$ objects made up of indistinguishable objects, $n_1$ in the first group, $n_2$ in the second group and so on, is:
+			$$
+				\frac{n!}{n_1! n_2! n_3!... n_r!}
+			$$
+			Example:\\
+			\begin{center}
+				Find the number of permutations of the letters in the world WOOLLOOMOOLOO.\\
+				There are 8 'O's and 3 'L's\\
+				Permutations:
+				$$\frac{13!}{8!3!}$$
+				$$\frac{13 \times 12 \times 11 \times 10 \times 9 \times 8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1}{(8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1) \times (3 \times 2 \times 1)}$$
+				$$\frac{13 \times 12 \times 11 \times 10 \times 9 \cancel{\times 8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1}}{\cancel{(8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1)} \times (3 \times 2 \times 1)}$$
+				$$\frac{13 \times 12 \times 11 \times 10 \times 9}{3 \times 2}$$
+				$$\frac{13 \times \cancelto{6 \cancel{\times 2}}{12} \times 11 \times 10 \times \cancelto{3 \cancel{\times 3}}{9}}{\cancel{3 \times 2}}$$
+				$$13 \times 6 \times 11 \times 10 \times 3$$
+				$$25,740$$
+			\end{center}
+
+		\subsection{Restrictions}
+			When considering restrictions, deal with the restrictions first.\\
+			Example:\\
+			\begin{center}
+				Find the number of arrangements of the letters of the word DARWIN beginning and ending with a vowel.\\
+				Number of letters = 6\\
+				Number of positions = 6\\
+				Beginning and end must be a vowel, so the available positions are decreased by 2: number of positions - 2 = 4\\
+				Since 2 vowels must be used:  number of letters - 2 = 4\\
+				Permutations:
+				$$^4P_4$$
+				$$4!$$
+				$$4 \times 3 \times 2 \times 1$$
+				$$24$$
+			\end{center}
+
+		\subsection{Grouped items}
+			When items are grouped together, treat each group as a single object.  Find the number of arrangements of the groups, then multiply by the number of arrangement within each group.\\
+			Example:\\
+			\begin{center}
+				Find the number of arrangement of the letters of the word EQUALS if the vowels are kept together.\\
+				Number of vowels = 3\\
+				Number of letters = 6\\
+				Number of positions = 6\\
+				As the 3 vowels are grouped together, the number of positions decreases:\\ number of positions - 3\textsubscript{for the members of the group} + 1\textsubscript{for the group} = 4\\
+				Permutations within vowel group:
+				$$^3P_3 = 3! = 3 \times 2 = 6$$
+				Permutations of all positions:
+				$$^4P_4 = 4! = 4 \times 3 \times 2 = 24$$
+				Multiply together:
+				$$6 \times 24 = 144$$
+			\end{center}
+
+		\subsection{Special cases}
+			$$^nP_n = n!$$
+			$$^nP_0 = 1$$
+
+
+	\section{Combinations}
+		Combinations is the number of ways of choosing or selecting $r$ objects from $n$ distinct objects where \emph{order does not matter}.  This is given the notation and formula:
+		$$^nC_r = \frac{^nP_r}{r!}$$
+		$$^nC_r = \frac{\frac{n!}{(n-r)!}}{r!}$$
+		Example:\\
+		\begin{align*}
+			^4C_2 & = \frac{^4P_2}{2!} \\
+			      & = \frac{\frac{4!}{(4 - 2)!}}{2!} \\
+			      & = \frac{\frac{4!}{2!}}{2!} \\
+			      & = \frac{\frac{4 \times 3 \times 2}{2}}{2} \\
+			      & = \frac{\frac{4 \times 3 \cancel{\times 2}}{\cancel{2}}}{2} \\
+			      & = \frac{4 \times 3}{2} \\
+			      & = \frac{12}{2} \\
+			      & = 6 \\
+		\end{align*}
+
+
+	\section{Pascal's triangle}
+		The Pascal's triangle is a pattern formed by adding the top 2 adjacent numbers and a 1 is placed on either side of the bottom row to resemble a triangle:
+		\begin{center}
+			\begin{tabular}{rccccccccccccccccccccc}
+				$n=0$:&    &    &    &    &    &    &    &    &    &    &  1\\\noalign{\smallskip\smallskip}
+				$n=1$:&    &    &    &    &    &    &    &    &    &  1 &    &  1\\\noalign{\smallskip\smallskip}
+				$n=2$:&    &    &    &    &    &    &    &    &  1 &    &  2 &    &  1\\\noalign{\smallskip\smallskip}
+				$n=3$:&    &    &    &    &    &    &    &  1 &    &  3 &    &  3 &    &  1\\\noalign{\smallskip\smallskip}
+				$n=4$:&    &    &    &    &    &    &  1 &    &  4 &    &  6 &    &  4 &    &  1\\\noalign{\smallskip\smallskip}
+				$n=5$:&    &    &    &    &    &  1 &    &  5 &    & 10 &    & 10 &    &  5 &    &  1\\\noalign{\smallskip\smallskip}
+				$n=6$:&    &    &    &    &  1 &    &  6 &    & 15 &    & 20 &    & 15 &    &  6 &    &  1\\\noalign{\smallskip\smallskip}
+				$n=7$:&    &    &    &  1 &    &  7 &    & 21 &    & 35 &    & 35 &    & 21 &    &  7 &    &  1\\\noalign{\smallskip\smallskip}
+				$n=8$:&    &    &  1 &    &  8 &    & 28 &    & 56 &    & 70 &    & 56 &    & 28 &    &  8 &    &  1\\\noalign{\smallskip\smallskip}
+				$n=9$:&    &  1 &    &  9 &    & 36 &    & 84 &    & 126 &    & 126 &    & 84 &    & 36 &    &  9 &    &  1\\\noalign{\smallskip\smallskip}
+				$n=10$:&  1 &    & 10 &    & 45 &    & 120 &    & 210 &    & 252 &    & 210 &    & 120 &    & 45 &    & 10 &    &  1\\\noalign{\smallskip\smallskip}
+			\end{tabular}
+		\end{center}
+
+		Each element in the Pascal's triangle can be used to calculate combinations, hence, the triange can be written using Combinations notation ($^nC_r$):
+		\begin{center}
+			\begin{tabular}{rcccccccccccccccc}
+				$n=0$:&    &    &    &    &    &    &    &    &    &    &  $^0C_0$\\\noalign{\smallskip\smallskip}
+				$n=1$:&    &    &    &    &    &    &    &    &    &  $^1C_0$ &    &  $^1C_1$\\\noalign{\smallskip\smallskip}
+				$n=2$:&    &    &    &    &    &    &    &    &  $^2C_0$ &    &  $^2C_1$ &    &  $^2C_2$\\\noalign{\smallskip\smallskip}
+				$n=3$:&    &    &    &    &    &    &    &  $^3C_0$ &    &  $^3C_1$ &    &  $^3C_2$ &    &  $^3C_3$\\\noalign{\smallskip\smallskip}
+				$n=4$:&    &    &    &    &    &    &  $^4C_0$ &    &  $^4C_1$ &    &  $^4C_2$ &    &  $^4C_3$ &    &  $^4C_4$\\\noalign{\smallskip\smallskip}
+				$n=5$:&    &    &    &    &    &  $^5C_0$ &    &  $^5C_1$ &    & $^5C_2$ &    & $^5C_3$ &    &  $^5C_4$ &    &  $^5C_5$\\\noalign{\smallskip\smallskip}
+			\end{tabular}
+		\end{center}
+
+		Pascal's triangle shows that the $r^\text{th}$ element of the $n^\text{th}$ row of Pascal's triangle is given by $^nC_r$.  It is assumed that the 1 at the beginning of each row is the $0^\text{th}$ element.  This gives the \emph{Pascal's identity}:
+		$$^nC_r = ^{n-1}C_{r-1} + ^{n-1}C_r \text{ for } 0 < r < n$$
+
+
+
+
+	\bibliography{bibliography}
+	\bibliographystyle{apacite}
+\end{document}
