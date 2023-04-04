@@ -193,7 +193,7 @@
 			\end{tabular}
 		\end{center}
 
-		Each element in the Pascal's triangle can be used to calculate combinations, hence, the triange can be written using Combinations notation ($^nC_r$):
+		Each element in the Pascal's triangle can be used to calculate combinations, hence, the triangle can be written using Combinations notation ($^nC_r$):
 		\begin{center}
 			\begin{tabular}{rcccccccccccccccc}
 				$n=0$:&    &    &    &    &    &    &    &    &    &    &  $^0C_0$\\\noalign{\smallskip\smallskip}
@@ -208,7 +208,15 @@
 		Pascal's triangle shows that the $r^\text{th}$ element of the $n^\text{th}$ row of Pascal's triangle is given by $^nC_r$.  It is assumed that the 1 at the beginning of each row is the $0^\text{th}$ element.  This gives the \emph{Pascal's identity}:
 		$$^nC_r = ^{n-1}C_{r-1} + ^{n-1}C_r \text{ for } 0 < r < n$$
 
-
+		The Pascal's triangle can be extended to the binomial theorem, where the rule for expanding an expression such as $(a + b)^n$.  Where:
+		\begin{align*}
+			(a + b)^ 0 &= 1\\
+			(a + b)^ 1 &= a^1 + ^1\\
+			(a + b)^ 2 &= a^2 + 2a^1b^1 + b^2\\
+			(a + b)^ 3 &= a^3 + 3a^2b^1 + 3a^1b^2 + b^3\\
+			(a + b)^ 4 &= a^4 + 4a^3b\\
+			(a + b)^ 5 &= \\
+		\end{align*}
 
 
 	\bibliography{bibliography}

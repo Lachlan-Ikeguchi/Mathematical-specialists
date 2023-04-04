@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/TeX Live for SUSE Linux) (preloaded format=pdflatex 2023.3.23)  4 APR 2023 17:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/TeX Live for SUSE Linux) (preloaded format=pdflatex 2023.3.23)  4 APR 2023 17:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -267,29 +267,29 @@ Overfull \hbox (27.41751pt too wide) in paragraph at lines 181--194
  [] 
  []
 
-No file "mathematical specialists".bbl.
-[5] (./mathematical specialists.aux) ) 
+(./mathematical specialists.bbl) [5] (./mathematical specialists.aux) ) 
 Here is how much of TeX's memory you used:
- 2837 strings out of 479305
- 40790 string characters out of 5872607
+ 2840 strings out of 479305
+ 40888 string characters out of 5872607
  367974 words of memory out of 5000000
- 20880 multiletter control sequences out of 15000+600000
+ 20881 multiletter control sequences out of 15000+600000
  478074 words of font info for 62 fonts, out of 8000000 for 9000
  475 hyphenation exceptions out of 8191
  55i,20n,62p,339b,231s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/amsf
-onts/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/f
-onts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf/fonts/type1/public/am
-sfonts/cm/cmmi7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/type1/public/ams
-fonts/cm/cmr5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
-sr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/font
-s/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf/fonts/type1/public/amsfo
-nts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb></
-usr/share/texmf/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on "mathematical specialists.pdf" (8 pages, 170565 bytes).
+</usr/sh
+are/texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf/fonts/typ
+e1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/
+share/texmf/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/s
+hare/texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf/fonts/type
+1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/sha
+re/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1
+/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/la
+txfont/line10.pfb>
+Output written on "mathematical specialists.pdf" (8 pages, 170579 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream
