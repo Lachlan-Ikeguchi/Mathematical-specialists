@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/TeX Live for SUSE Linux) (preloaded format=pdflatex 2023.3.23)  4 APR 2023 17:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/TeX Live for SUSE Linux) (preloaded format=pdflatex 2023.3.23)  4 APR 2023 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"mathematical specialists.tex" -output-directory=./output
+**"mathematical specialists.tex"
 (./mathematical specialists.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/share/texmf/tex/latex/base/report.cls
@@ -139,7 +139,7 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box52
 )
-No file "mathematical specialists".aux.
+(./mathematical specialists.aux)
 \openout1 = `"mathematical specialists.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -156,6 +156,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -191,12 +192,14 @@ LaTeX Font Info:    ... okay on input line 15.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@maskedRefs=\count277
-
-Package apacite Warning: Language definition file english.apc not found.
-
+(./english.apc
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+)
 LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
 
-(/usr/share/texmf/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texmf/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
@@ -206,12 +209,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-No file "mathematical specialists".toc.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./mathematical specialist
+s.toc)
 \tf@toc=\write3
 \openout3 = `"mathematical specialists.toc"'.
 
-[1
+ [1
 
 ]
 Overfull \hbox (7.80412pt too wide) in paragraph at lines 20--21
@@ -267,13 +270,13 @@ Overfull \hbox (27.41751pt too wide) in paragraph at lines 181--194
 No file "mathematical specialists".bbl.
 [5] (./mathematical specialists.aux) ) 
 Here is how much of TeX's memory you used:
- 2825 strings out of 479305
- 40518 string characters out of 5872607
- 367983 words of memory out of 5000000
- 20874 multiletter control sequences out of 15000+600000
+ 2837 strings out of 479305
+ 40790 string characters out of 5872607
+ 367974 words of memory out of 5000000
+ 20880 multiletter control sequences out of 15000+600000
  478074 words of font info for 62 fonts, out of 8000000 for 9000
  475 hyphenation exceptions out of 8191
- 55i,20n,62p,366b,231s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 55i,20n,62p,339b,231s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/amsf
 onts/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/f
@@ -286,7 +289,7 @@ sr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/font
 s/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf/fonts/type1/public/amsfo
 nts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb></
 usr/share/texmf/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on "mathematical specialists.pdf" (8 pages, 169854 bytes).
+Output written on "mathematical specialists.pdf" (8 pages, 170565 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream
