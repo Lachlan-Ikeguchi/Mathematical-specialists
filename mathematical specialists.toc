@@ -37,12 +37,12 @@
 \contentsline {subsection}{\numberline {0.9.14}Relative vectors}{10}{subsection.0.9.14}%
 \contentsline {section}{\numberline {0.10}Euclidean geometry}{10}{section.0.10}%
 \contentsline {subsection}{\numberline {0.10.1}Postulates}{10}{subsection.0.10.1}%
-\contentsline {subsection}{\numberline {0.10.2}Theorems}{12}{subsection.0.10.2}%
-\contentsline {section}{\numberline {0.11}Proofs}{13}{section.0.11}%
-\contentsline {subsection}{\numberline {0.11.1}Number systems}{13}{subsection.0.11.1}%
+\contentsline {subsection}{\numberline {0.10.2}Theorems}{10}{subsection.0.10.2}%
+\contentsline {section}{\numberline {0.11}Proofs}{12}{section.0.11}%
+\contentsline {subsection}{\numberline {0.11.1}Number systems}{12}{subsection.0.11.1}%
 \contentsline {subsection}{\numberline {0.11.2}Propositions}{13}{subsection.0.11.2}%
 \contentsline {subsection}{\numberline {0.11.3}Rules of equality}{13}{subsection.0.11.3}%
-\contentsline {subsection}{\numberline {0.11.4}Proof by contraposition}{14}{subsection.0.11.4}%
+\contentsline {subsection}{\numberline {0.11.4}Proof by contraposition}{13}{subsection.0.11.4}%
 \contentsline {subsection}{\numberline {0.11.5}Proof by contradiction}{14}{subsection.0.11.5}%
 \contentsline {section}{\numberline {0.12}Circles}{14}{section.0.12}%
 \contentsline {subsection}{\numberline {0.12.1}Terms}{14}{subsection.0.12.1}%
