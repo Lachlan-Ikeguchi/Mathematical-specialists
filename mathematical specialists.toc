@@ -1,14 +1,45 @@
-\contentsline {section}{\numberline {0.1}Important symbols}{1}{}%
-\contentsline {section}{\numberline {0.2}Addition principle}{2}{}%
-\contentsline {section}{\numberline {0.3}Multiplication principle}{2}{}%
-\contentsline {section}{\numberline {0.4}Factorials}{2}{}%
-\contentsline {subsection}{\numberline {0.4.1}Dividing factorials}{2}{}%
-\contentsline {subsection}{\numberline {0.4.2}Special cases}{2}{}%
-\contentsline {section}{\numberline {0.5}Permutations}{3}{}%
-\contentsline {subsection}{\numberline {0.5.1}Permutations in a circle}{3}{}%
-\contentsline {subsection}{\numberline {0.5.2}Like objects repetitions}{3}{}%
-\contentsline {subsection}{\numberline {0.5.3}Restrictions}{4}{}%
-\contentsline {subsection}{\numberline {0.5.4}Grouped items}{4}{}%
-\contentsline {subsection}{\numberline {0.5.5}Special cases}{4}{}%
-\contentsline {section}{\numberline {0.6}Combinations}{4}{}%
-\contentsline {section}{\numberline {0.7}Pascal's triangle}{5}{}%
+\contentsline {section}{\numberline {0.1}Important symbols}{1}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Addition principle}{2}{section.0.2}%
+\contentsline {section}{\numberline {0.3}Multiplication principle}{2}{section.0.3}%
+\contentsline {section}{\numberline {0.4}Factorials}{2}{section.0.4}%
+\contentsline {subsection}{\numberline {0.4.1}Dividing factorials}{2}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {0.4.2}Special cases}{2}{subsection.0.4.2}%
+\contentsline {section}{\numberline {0.5}Permutations}{3}{section.0.5}%
+\contentsline {subsection}{\numberline {0.5.1}Permutations in a circle}{3}{subsection.0.5.1}%
+\contentsline {subsection}{\numberline {0.5.2}Like objects repetitions}{3}{subsection.0.5.2}%
+\contentsline {subsection}{\numberline {0.5.3}Restrictions}{4}{subsection.0.5.3}%
+\contentsline {subsection}{\numberline {0.5.4}Grouped items}{4}{subsection.0.5.4}%
+\contentsline {subsection}{\numberline {0.5.5}Special cases}{4}{subsection.0.5.5}%
+\contentsline {section}{\numberline {0.6}Combinations}{4}{section.0.6}%
+\contentsline {subsection}{\numberline {0.6.1}Combinations with restrictions}{5}{subsection.0.6.1}%
+\contentsline {subsubsection}{Combinations with specific terms}{5}{section*.2}%
+\contentsline {subsubsection}{Combinations from multiple groups}{5}{section*.3}%
+\contentsline {subsubsection}{Permutations and Combinations combined}{5}{section*.4}%
+\contentsline {section}{\numberline {0.7}Pascal's triangle}{5}{section.0.7}%
+\contentsline {section}{\numberline {0.8}Vectors}{6}{section.0.8}%
+\contentsline {subsection}{\numberline {0.8.1}Addition of vectors}{6}{subsection.0.8.1}%
+\contentsline {subsection}{\numberline {0.8.2}Multiplication of vectors by a scalar}{7}{subsection.0.8.2}%
+\contentsline {subsection}{\numberline {0.8.3}Calculating the magnitude of a vector}{7}{subsection.0.8.3}%
+\contentsline {subsection}{\numberline {0.8.4}Calculating the angle of a vector}{7}{subsection.0.8.4}%
+\contentsline {subsection}{\numberline {0.8.5}The negative of a vector}{7}{subsection.0.8.5}%
+\contentsline {subsection}{\numberline {0.8.6}Converting between component form and polar form}{7}{subsection.0.8.6}%
+\contentsline {subsection}{\numberline {0.8.7}How to find the vector between points that}{7}{subsection.0.8.7}%
+\contentsline {subsection}{\numberline {0.8.8}Unit vectors}{7}{subsection.0.8.8}%
+\contentsline {subsection}{\numberline {0.8.9}Dot products}{7}{subsection.0.8.9}%
+\contentsline {subsection}{\numberline {0.8.10}Angle between two vectors}{7}{subsection.0.8.10}%
+\contentsline {subsection}{\numberline {0.8.11}Scalar resolutes}{7}{subsection.0.8.11}%
+\contentsline {subsection}{\numberline {0.8.12}Vector resolutes}{7}{subsection.0.8.12}%
+\contentsline {subsection}{\numberline {0.8.13}Sine rule}{7}{subsection.0.8.13}%
+\contentsline {subsection}{\numberline {0.8.14}Cosine rule}{7}{subsection.0.8.14}%
+\contentsline {subsection}{\numberline {0.8.15}Applications of vectors}{7}{subsection.0.8.15}%
+\contentsline {subsubsection}{Displacement and velocity}{7}{section*.5}%
+\contentsline {subsubsection}{Triangle of forces}{7}{section*.6}%
+\contentsline {subsection}{\numberline {0.8.16}Relative vectors}{7}{subsection.0.8.16}%
+\contentsline {section}{\numberline {0.9}Proofs}{7}{section.0.9}%
+\contentsline {subsection}{\numberline {0.9.1}Propositions}{7}{subsection.0.9.1}%
+\contentsline {subsection}{\numberline {0.9.2}Direcct proofs}{7}{subsection.0.9.2}%
+\contentsline {subsection}{\numberline {0.9.3}Proof by contraposition}{7}{subsection.0.9.3}%
+\contentsline {subsection}{\numberline {0.9.4}Proof by contradiction}{8}{subsection.0.9.4}%
+\contentsline {section}{\numberline {0.10}Circles}{8}{section.0.10}%
+\contentsline {subsection}{\numberline {0.10.1}Terms}{8}{subsection.0.10.1}%
+\contentsline {subsection}{\numberline {0.10.2}Theorems}{8}{subsection.0.10.2}%
