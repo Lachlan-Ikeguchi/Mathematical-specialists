@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.21)  22 MAY 2023 15:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.21)  22 MAY 2023 15:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -428,12 +428,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--267
 File: ./images/circle theorem 1.png Graphic file (type png)
 <use ./images/circle theorem 1.png>
 Package pdftex.def Info: ./images/circle theorem 1.png  used on input line 360.
-(pdftex.def)             Requested size: 170.71652pt x 171.1646pt.
+(pdftex.def)             Requested size: 85.35826pt x 85.58054pt.
 <./images/circle theorem 1 symbol.png, id=266, 51.19125pt x 46.37325pt>
 File: ./images/circle theorem 1 symbol.png Graphic file (type png)
 <use ./images/circle theorem 1 symbol.png>
 Package pdftex.def Info: ./images/circle theorem 1 symbol.png  used on input line 360.
-(pdftex.def)             Requested size: 85.35826pt x 77.3298pt.
+(pdftex.def)             Requested size: 56.9055pt x 51.55273pt.
  [8 <./images/circle theorem 1.png> <./images/circle theorem 1 symbol.png>] (mathematical specialists.aux)
 Package rerunfilecheck Info: File `"mathematical specialists".out' has not changed.
 (rerunfilecheck)             Checksum: A71A48F0947E8952E163606A12C5ACEE;6231.
@@ -447,7 +447,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,20n,76p,440b,501s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "mathematical specialists.pdf" (11 pages, 300660 bytes).
+Output written on "mathematical specialists.pdf" (11 pages, 300656 bytes).
 PDF statistics:
  373 PDF objects out of 1000 (max. 8388607)
  67 named destinations out of 1000 (max. 500000)

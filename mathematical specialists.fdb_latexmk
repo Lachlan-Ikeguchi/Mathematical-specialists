@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1684733953 "d:/Projects/latex_projects/Mathematical specialists/mathematical specialists.tex" "mathematical specialists.pdf" "mathematical specialists" 1684733956 0
+["pdflatex"] 1684734533 "d:/Projects/latex_projects/Mathematical specialists/mathematical specialists.tex" "mathematical specialists.pdf" "mathematical specialists" 1684734535 0
   "C:/Users/lachl/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1684729773 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/lachl/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1684661547 23178960 87e0122854d77a951fa49bf96fc9e2b5 ""
   "C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233948248 1004 54797486969f23fa377b128694d548df ""
@@ -97,13 +97,13 @@
   "C:/Users/lachl/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/lachl/AppData/Local/Programs/MiKTeX/tex/latex/undertilde/undertilde.sty" 1468852912 1250 918dcfabd49eae16312715c13055f775 ""
   "C:/Users/lachl/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388486852 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "d:/Projects/latex_projects/Mathematical specialists/mathematical specialists.tex" 1684733947 17699 12e951c820b427ab2031acbe231ef74e ""
+  "d:/Projects/latex_projects/Mathematical specialists/mathematical specialists.tex" 1684734531 17699 e9efc41024601622caa5aa793f10fcb7 ""
   "images/circle theorem 1 symbol.png" 1684725647 6080 2fa9369a4648272cf8df3a10f173ebe2 ""
   "images/circle theorem 1.png" 1684725545 52601 20b86cc66130dce2650ee2724374f7c4 ""
-  "mathematical specialists.aux" 1684733956 6248 6cd32d7beb0a7a4533494e113dce10ea "pdflatex"
-  "mathematical specialists.out" 1684733956 6231 a71a48f0947e8952e163606a12c5acee "pdflatex"
-  "mathematical specialists.tex" 1684733947 17699 12e951c820b427ab2031acbe231ef74e ""
-  "mathematical specialists.toc" 1684733956 3848 1a18042f79fe97c9c9e8eaf0ae34c1dd "pdflatex"
+  "mathematical specialists.aux" 1684734535 6248 6cd32d7beb0a7a4533494e113dce10ea "pdflatex"
+  "mathematical specialists.out" 1684734535 6231 a71a48f0947e8952e163606a12c5acee "pdflatex"
+  "mathematical specialists.tex" 1684734531 17699 e9efc41024601622caa5aa793f10fcb7 ""
+  "mathematical specialists.toc" 1684734535 3848 1a18042f79fe97c9c9e8eaf0ae34c1dd "pdflatex"
   (generated)
   "mathematical specialists.aux"
   "mathematical specialists.log"
