@@ -193,8 +193,7 @@ Example:\\
 \subsection{Combinations with restrictions}
 \subsubsection{Combinations with specific terms}
 When given a restriction that something must be something, consider the restriction first:\\
-As an example:
-\begin{center}
+\begin{example}
 	Grace belongs to a group of 8 workers.  How many ways can a team of four workers be selected if Grace must be on the team?\\
 	If there is no restriction, it would be equal to $\Comb{8}{4}$.  But as Grace must be on the team, $n$ must be equal to $8 - 1$ and $r$ must be also $4 - 1$\\
 	Therefore, the answer is:
@@ -202,11 +201,43 @@ As an example:
 		\Comb{7}{3} = 35
 	$$
 	35 total combinations.
-\end{center}
+\end{example}
 
 \subsubsection{Combinations from multiple groups}
+When given a two combinations, multiply them together:\\
+\begin{example}
+	From 7 women and 4 men in a workplace, how many gropes of 5 can be chosen containing 3 women and 2 men?
+	Women:
+	$$
+		\Comb{7}{3} = 35
+	$$
+	Men:
+	$$
+		\Comb{4}{2} = 6
+	$$
+	Total:
+	$$
+		35 \times 6 = 210
+	$$
+\end{example}
 
 \subsubsection{Permutations and Combinations combined}
+When given two combinations, in which the output is a permutations:
+\begin{example}
+	How many arrangement of the letters in the word ``DUPLICATE'' can be made that have two vowels and three consonants?\\
+
+	First of all, there are 4 vowels, and 5 consonants.  And 2 vowels are selected, while 3 vowels are selected:
+	$$
+		\Comb{4}{2} = 6
+	$$
+	$$
+		\Comb{5}{3} = 10
+	$$
+	And there are $5!$ ways to arrange 5 objects, therefore
+	$$
+		6 \times 10 \times 5! = 7200
+	$$
+\end{example}
 
 \section{Pascal's triangle}
 The Pascal's triangle is a pattern formed by adding the top 2 adjacent numbers and a 1 is placed on either side of the bottom row to resemble a triangle:
@@ -413,21 +444,125 @@ $$
 $$
 
 \subsection{Applications of vectors}
-\subsubsection{Displacement and velocity}
-
-\subsubsection{Triangle of forces}
-% Resultant force
+\subsubsection{Forces}
+Use the non-right-angle-triangles rules for the triangles of forces.  And the resultant force (the vector of the actual force experienced) is the the sum of all forces (vectors) using vector addition.
 
 \subsection{Relative vectors}
+The general relationship between relative velocities is:
+$$
+	\utilde{v}_a = \utilde{v}_{(\text{$a$ relative to $b$})} + \utilde{v}_b
+$$
+Where $\utilde{v}_a$ is the actual vector and $\utilde{v}_{(\text{$a$ relative to $b$})}$ is the vector relative to $b$.
+
+\section{Euclidean geometry}
+There are some basic statements that are accepted as true without proving them.  In general, when these statements refer to working with numbers, the statements are called axioms.  When the statements are about geometry, they are called postulates.
+
+\subsection{Postulates}
+\begin{itemize}
+	\item A straight line can be drawn from one point to another (that is, any two points will form a straight line)
+	\item It is possible to produce a finite straight line
+	\item a circle can be described with any centre and radius
+	\item All right angles are equal to eachother
+	\item If there is a line and a point on the line, then one line can be drawn through the point that is parallel to the original line (does not work in non-euclidean geometry)
+\end{itemize}
+
+\subsection{Theorems}
+\begin{center}
+	\begin{tabular}{|p{5cm}|p{3cm}|p{2cm}|}
+		\hline
+		Theorem                                                                                   & Diagram                                          & Symbol                                                  \\ \hline
+		Adjacent angles on a straight line are supplementary.                                     & \includegraphics[width=3cm]{geometry theorem 1}  & \includegraphics[width=2cm]{geometry theorem 1 symbol}  \\
+		If two lines are parallel, the corresponding angles are congruent.                        & \includegraphics[width=3cm]{geometry theorem 2}  & \includegraphics[width=2cm]{geometry theorem 2 symbol}  \\
+		Vertically opposite angles are congruent.                                                 & \includegraphics[width=3cm]{geometry theorem 3}  & \includegraphics[width=2cm]{geometry theorem 3 symbol}  \\
+		If two lines are parallel, the alternate angles are congruent.                            & \includegraphics[width=3cm]{geometry theorem 4}  & \includegraphics[width=2cm]{geometry theorem 4 symbol}  \\
+		The exterior angle of a triangle is equal to the sum of the two interior opposite angles. & \includegraphics[width=3cm]{geometry theorem 5}  & \includegraphics[width=2cm]{geometry theorem 5 symbol}  \\
+		The sum of the angles of a triangle is 180 \degree.                                       & \includegraphics[width=3cm]{geometry theorem 6}  & \includegraphics[width=2cm]{geometry theorem 6 symbol}  \\
+		In an isosceles triangle, the opposite angles are congruent.                              & \includegraphics[width=3cm]{geometry theorem 7}  & \includegraphics[width=2cm]{geometry theorem 7 symbol}  \\
+		In in equilateral triangle, all sides and angles are congruent.                           & \includegraphics[width=3cm]{geometry theorem 8}  & \includegraphics[width=2cm]{geometry theorem 8 symbol}  \\
+		The sum of the angles of a quadrilateral is 360 \degree.                                  & \includegraphics[width=3cm]{geometry theorem 9}  & \includegraphics[width=2cm]{geometry theorem 9 symbol}  \\
+		The opposite angles of a parallelogram are congruent.                                     & \includegraphics[width=3cm]{geometry theorem 10} & \includegraphics[width=2cm]{geometry theorem 10 symbol} \\
+		Angles at a point add to 360 \degree.                                                     & \includegraphics[width=3cm]{geometry theorem 11} & \includegraphics[width=2cm]{geometry theorem 11 symbol} \\
+	\end{tabular}
+\end{center}
 
 
 \section{Proofs}
-\subsection{Propositions}
+\subsection{Number systems}
+The notation for referring to different sets of numbers are:
+\begin{center}
+	\begin{tabular}{c|c}
+		Symbol           & Meaning           \\ \hline
+		$\mathbb{R}$     & Real numbers      \\
+		$\mathbb{N}$     & Natural numbers   \\
+		$\mathbb{Z}$     & Integers          \\
+		$\mathbb{Z}^{+}$ & Positive integers \\
+		$\mathbb{Z}^{-}$ & Negative integers \\
+		$\mathbb{Q}$     & Rational numbers
+	\end{tabular}\\
+	\includegraphics[scale=0.5]{number tree}
+\end{center}
 
-\subsection{Direct proofs}
+\subsection{Propositions}
+A proposition or mathematical statement is a sentence that is either true or false.
+\begin{center}
+	\begin{tabular}{c|c|c}
+		Symbol                & Meaning                   & Explanation                                                                \\ \hline
+		$P \implies Q$        & Implication               & $P$ implies $Q$                                                            \\
+		$\lnot A$             & Negation                  & The opposite of $A$                                                        \\
+		$\forall x$           & Universal quantifier      & For all values of $x$                                                      \\
+		$\exists $            & Existential quantifier    & There exists for some values of $x$                                        \\
+		$P \Leftrightarrow Q$ & Equivalence               & The converse implication of $P \implies Q$ and $Q \implies P$ is also true \\
+		$A \cap B$            & Union                     & $A$ or $B$                                                                 \\
+		$A \cup B$            & Intersection              & $A$ and $B$                                                                \\
+		$A > B$               & Greater than              & $A$ is larger than $B$                                                     \\
+		$A < B$               & Less than                 & $A$ is smaller than $B$                                                    \\
+		$A \leq B$            & Less than and Equal to    & $A$ is smaller than or equal to $B$                                        \\
+		$A \geq B$            & Greater than and Equal to & $A$ is larger than or equal to $B$                                         \\
+		$A = B$               & Equal to                  & $A$ is the same value as $B$                                               \\
+		$A \in \mathbb{N}$    & Contained in              & $A$ is contained in the set of natural numbers                             \\
+	\end{tabular}
+\end{center}
+
+\subsection{Rules of equality}
+Equality must follow these rules
+\begin{center}
+	Transitive property:
+	$$
+		\begin{array}{r@{}l}
+			a + b \\
+			b + c
+		\end{array}
+		\rbrace \implies a = c
+	$$
+	Substitution:
+	$$
+		\begin{array}{r@{}l}
+			a + b = c \\
+			b = d
+		\end{array}
+		\rbrace \implies a + d = c
+	$$
+	Matching:
+	$$
+		\begin{array}{r@{}l}
+			a + b  = c \\
+			a + d = c
+		\end{array}
+		\rbrace \implies b = d
+	$$
+	Adding equals:
+	$$
+		\begin{array}{r@{}l}
+			a = b \\
+			c=d
+		\end{array}
+		\rbrace \implies a + c = b + d
+	$$
+\end{center}
 
 \subsection{Proof by contraposition}
-Proof by contraposition is done by proving the contrapositive
+Proof by contraposition is done by proving the contrapositive.  The contrapositive of a proposition is:
+If $Q$, than $P$ becomes: If not $Q$, then not $P$
 
 \subsection{Proof by contradiction}
 Proof by contradiction is done by assuming that it is false initially.
@@ -438,10 +573,10 @@ Proof by contradiction is done by assuming that it is false initially.
 	\item realize that if it is not false, then it must be true
 \end{enumerate}
 Example:\\
-$x$ satisfies $5^x = 2$, show that $x$ is irrational.++++
+$x$ satisfies $5^x = 2$, show that $x$ is irrational.
 \begin{enumerate}
 	\item Assume that $x$ is rational.
-	\item $x = \frac{p}{q}, \in \int (\text{with no common factors})$ as all rational numbers can be represented by a fraction of integers
+	\item $x = \frac{p}{q}, \in \mathbb{Z} (\text{with no common factors})$ as all rational numbers can be represented by a fraction of integers
 	\item $5^{\frac{p}{q}} = 2$
 	\item $(5^{\frac{p}{q}})^q = (2)^q$
 	\item $5^p = 2^p$
