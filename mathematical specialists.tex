@@ -8,10 +8,13 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{gensymb}
+\usepackage{graphicx,tipa}
+
 
 % user defined commands
 \newcommand{\Comb}[2]{{}^{#1}C_{#2}}
 \newcommand{\note}[1]{\begin{center}\emph{NOTE: {#1}}\end{center}}
+\newcommand{\arc}[1]{{\setbox9=\hbox{#1}\ooalign{\resizebox{\wd9}{\height}{\texttoptiebar{\phantom{A}}}\cr#1}}}
 
 % user defined environments
 \newenvironment{example}{For example:\\}{}
@@ -446,10 +449,18 @@ $x$ satisfies $5^x = 2$, show that $x$ is irrational.++++
 Some important terms used with circles are:
 \begin{center}
 	\begin{tabular}{c|c}
-		Term          & Meaning                                                       \\ \hline
-		Circumference & The distance around the circle, or it's perimeter             \\
-		Centre        & The point denoted $O$ which is the middle point of the circle \\
-		Chord         &
+		Term                 & Meaning                                                                                 \\ \hline
+		Circumference        & The distance around the circle, or it's perimeter                                       \\
+		Centre               & The point denoted $O$ which is the middle point of the circle                           \\
+		Chord                & A line between two points on the circumference                                          \\
+		Diameter             & The length of a chord that intersects the centre                                        \\
+		Radius               & The length from the centre to the circumference                                         \\
+		Arc                  & The part of a circle created by a chord $\arc{abd}$ is \includegraphics[scale=0.3]{arc} \\
+		Angle at the centre  & The angle made by two radii                                                             \\
+		Secant               & A line the cuts the circumference of the circle at two points                           \\
+		Tangent              & A line that touches the circle at a point                                               \\
+		Segment              & A region of a circle cut by a chord                                                     \\
+		Cyclic quadrilateral & A quadrilateral (shape with four sides) whose vertices all lie on a circle              \\
 	\end{tabular}
 \end{center}
 
