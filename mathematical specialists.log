@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.21)  22 MAY 2023 21:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.21)  22 MAY 2023 21:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -451,167 +451,167 @@ Package pdftex.def Info: ./images/dot product explination 2.png  used on input l
 <./images/circle theorem 1.png, id=276, 229.45724pt x 230.0595pt>
 File: ./images/circle theorem 1.png Graphic file (type png)
 <use ./images/circle theorem 1.png>
-Package pdftex.def Info: ./images/circle theorem 1.png  used on input line 451.
+Package pdftex.def Info: ./images/circle theorem 1.png  used on input line 461.
 (pdftex.def)             Requested size: 85.35826pt x 85.58054pt.
 <./images/circle theorem 1 symbol.png, id=277, 51.19125pt x 46.37325pt>
 File: ./images/circle theorem 1 symbol.png Graphic file (type png)
 <use ./images/circle theorem 1 symbol.png>
-Package pdftex.def Info: ./images/circle theorem 1 symbol.png  used on input line 451.
+Package pdftex.def Info: ./images/circle theorem 1 symbol.png  used on input line 461.
 (pdftex.def)             Requested size: 56.9055pt x 51.55273pt.
 <./images/circle theorem 2.png, id=278, 301.125pt x 301.125pt>
 File: ./images/circle theorem 2.png Graphic file (type png)
 <use ./images/circle theorem 2.png>
-Package pdftex.def Info: ./images/circle theorem 2.png  used on input line 452.
+Package pdftex.def Info: ./images/circle theorem 2.png  used on input line 462.
 (pdftex.def)             Requested size: 85.35826pt x 85.35744pt.
 <./images/circle theorem 2 symbol.png, id=279, 49.98676pt x 49.3845pt>
 File: ./images/circle theorem 2 symbol.png Graphic file (type png)
 <use ./images/circle theorem 2 symbol.png>
-Package pdftex.def Info: ./images/circle theorem 2 symbol.png  used on input line 452.
+Package pdftex.def Info: ./images/circle theorem 2 symbol.png  used on input line 462.
 (pdftex.def)             Requested size: 56.9055pt x 56.22203pt.
 <./images/circle theorem 3.png, id=280, 299.9205pt x 317.38576pt>
 File: ./images/circle theorem 3.png Graphic file (type png)
 <use ./images/circle theorem 3.png>
-Package pdftex.def Info: ./images/circle theorem 3.png  used on input line 453.
+Package pdftex.def Info: ./images/circle theorem 3.png  used on input line 463.
 (pdftex.def)             Requested size: 85.35826pt x 90.32996pt.
 <./images/circle theorem 3 symbol.png, id=281, 87.32625pt x 54.80475pt>
 File: ./images/circle theorem 3 symbol.png Graphic file (type png)
 <use ./images/circle theorem 3 symbol.png>
-Package pdftex.def Info: ./images/circle theorem 3 symbol.png  used on input line 453.
+Package pdftex.def Info: ./images/circle theorem 3 symbol.png  used on input line 463.
 (pdftex.def)             Requested size: 56.9055pt x 35.71379pt.
 <./images/circle theorem 4.png, id=282, 244.5135pt x 246.9225pt>
 File: ./images/circle theorem 4.png Graphic file (type png)
 <use ./images/circle theorem 4.png>
-Package pdftex.def Info: ./images/circle theorem 4.png  used on input line 454.
+Package pdftex.def Info: ./images/circle theorem 4.png  used on input line 464.
 (pdftex.def)             Requested size: 85.35826pt x 86.19809pt.
 <./images/circle theorem 4 symbol.png, id=283, 52.39575pt x 51.19125pt>
 File: ./images/circle theorem 4 symbol.png Graphic file (type png)
 <use ./images/circle theorem 4 symbol.png>
-Package pdftex.def Info: ./images/circle theorem 4 symbol.png  used on input line 454.
+Package pdftex.def Info: ./images/circle theorem 4 symbol.png  used on input line 464.
 (pdftex.def)             Requested size: 56.9055pt x 55.59816pt.
 <./images/circle theorem 5.png, id=284, 243.91125pt x 236.082pt>
 File: ./images/circle theorem 5.png Graphic file (type png)
 <use ./images/circle theorem 5.png>
-Package pdftex.def Info: ./images/circle theorem 5.png  used on input line 455.
+Package pdftex.def Info: ./images/circle theorem 5.png  used on input line 465.
 (pdftex.def)             Requested size: 85.35826pt x 82.61913pt.
 <./images/circle theorem 5 symbol.png, id=285, 54.2025pt x 46.9755pt>
 File: ./images/circle theorem 5 symbol.png Graphic file (type png)
 <use ./images/circle theorem 5 symbol.png>
-Package pdftex.def Info: ./images/circle theorem 5 symbol.png  used on input line 455.
+Package pdftex.def Info: ./images/circle theorem 5 symbol.png  used on input line 465.
 (pdftex.def)             Requested size: 56.9055pt x 49.3207pt.
 <./images/circle theorem 6.png, id=286, 320.397pt x 281.25075pt>
 File: ./images/circle theorem 6.png Graphic file (type png)
 <use ./images/circle theorem 6.png>
-Package pdftex.def Info: ./images/circle theorem 6.png  used on input line 459.
+Package pdftex.def Info: ./images/circle theorem 6.png  used on input line 470.
 (pdftex.def)             Requested size: 85.35826pt x 74.93019pt.
 <./images/circle theorem 6 symbol.png, id=287, 58.41824pt x 54.80475pt>
 File: ./images/circle theorem 6 symbol.png Graphic file (type png)
 <use ./images/circle theorem 6 symbol.png>
-Package pdftex.def Info: ./images/circle theorem 6 symbol.png  used on input line 459.
+Package pdftex.def Info: ./images/circle theorem 6 symbol.png  used on input line 470.
 (pdftex.def)             Requested size: 56.9055pt x 53.38547pt.
 
-Underfull \hbox (badness 1092) in paragraph at lines 460--460
+Underfull \hbox (badness 1092) in paragraph at lines 471--471
 []\OT1/cmr/m/n/10 If chords are con-gru-ent, they
  []
 
 <./images/circle theorem 7.png, id=288, 343.2825pt x 361.95226pt>
 File: ./images/circle theorem 7.png Graphic file (type png)
 <use ./images/circle theorem 7.png>
-Package pdftex.def Info: ./images/circle theorem 7.png  used on input line 460.
+Package pdftex.def Info: ./images/circle theorem 7.png  used on input line 471.
 (pdftex.def)             Requested size: 85.35826pt x 89.99629pt.
 <./images/circle theorem 7 symbol.png, id=289, 54.80475pt x 55.407pt>
 File: ./images/circle theorem 7 symbol.png Graphic file (type png)
 <use ./images/circle theorem 7 symbol.png>
-Package pdftex.def Info: ./images/circle theorem 7 symbol.png  used on input line 460.
+Package pdftex.def Info: ./images/circle theorem 7 symbol.png  used on input line 471.
 (pdftex.def)             Requested size: 56.9055pt x 57.53482pt.
 <./images/circle theorem 8.png, id=290, 357.13425pt x 274.626pt>
 File: ./images/circle theorem 8.png Graphic file (type png)
 <use ./images/circle theorem 8.png>
-Package pdftex.def Info: ./images/circle theorem 8.png  used on input line 461.
+Package pdftex.def Info: ./images/circle theorem 8.png  used on input line 472.
 (pdftex.def)             Requested size: 85.35826pt x 65.63501pt.
 <./images/circle theorem 8 symbol.png, id=291, 57.21375pt x 55.407pt>
 File: ./images/circle theorem 8 symbol.png Graphic file (type png)
 <use ./images/circle theorem 8 symbol.png>
-Package pdftex.def Info: ./images/circle theorem 8 symbol.png  used on input line 461.
+Package pdftex.def Info: ./images/circle theorem 8 symbol.png  used on input line 472.
 (pdftex.def)             Requested size: 56.9055pt x 55.11093pt.
 <./images/circle theorem 9.png, id=292, 359.54324pt x 299.31825pt>
 File: ./images/circle theorem 9.png Graphic file (type png)
 <use ./images/circle theorem 9.png>
-Package pdftex.def Info: ./images/circle theorem 9.png  used on input line 462.
+Package pdftex.def Info: ./images/circle theorem 9.png  used on input line 473.
 (pdftex.def)             Requested size: 85.35826pt x 71.05684pt.
 <./images/circle theorem 9 symbol.png, id=293, 105.996pt x 60.82726pt>
 File: ./images/circle theorem 9 symbol.png Graphic file (type png)
 <use ./images/circle theorem 9 symbol.png>
-Package pdftex.def Info: ./images/circle theorem 9 symbol.png  used on input line 462.
+Package pdftex.def Info: ./images/circle theorem 9 symbol.png  used on input line 473.
 (pdftex.def)             Requested size: 56.9055pt x 32.65688pt.
 
-Underfull \hbox (badness 1708) in paragraph at lines 463--463
+Underfull \hbox (badness 1708) in paragraph at lines 474--474
 \OT1/cmr/m/n/10 gents meet-ing at an ex-ter-nal
  []
 
 <./images/circle theorem 10.png, id=294, 339.06676pt x 248.127pt>
 File: ./images/circle theorem 10.png Graphic file (type png)
 <use ./images/circle theorem 10.png>
-Package pdftex.def Info: ./images/circle theorem 10.png  used on input line 463.
+Package pdftex.def Info: ./images/circle theorem 10.png  used on input line 474.
 (pdftex.def)             Requested size: 85.35826pt x 62.4632pt.
 <./images/circle theorem 10 symbol.png, id=295, 112.62074pt x 57.816pt>
 File: ./images/circle theorem 10 symbol.png Graphic file (type png)
 <use ./images/circle theorem 10 symbol.png>
-Package pdftex.def Info: ./images/circle theorem 10 symbol.png  used on input line 463.
+Package pdftex.def Info: ./images/circle theorem 10 symbol.png  used on input line 474.
 (pdftex.def)             Requested size: 56.9055pt x 29.21404pt.
 <./images/circle theorem 11.png, id=296, 389.65575pt x 254.75175pt>
 File: ./images/circle theorem 11.png Graphic file (type png)
 <use ./images/circle theorem 11.png>
-Package pdftex.def Info: ./images/circle theorem 11.png  used on input line 467.
+Package pdftex.def Info: ./images/circle theorem 11.png  used on input line 479.
 (pdftex.def)             Requested size: 85.35826pt x 55.80453pt.
 <./images/circle theorem 11 symbol.png, id=297, 78.89474pt x 55.407pt>
 File: ./images/circle theorem 11 symbol.png Graphic file (type png)
 <use ./images/circle theorem 11 symbol.png>
-Package pdftex.def Info: ./images/circle theorem 11 symbol.png  used on input line 467.
+Package pdftex.def Info: ./images/circle theorem 11 symbol.png  used on input line 479.
 (pdftex.def)             Requested size: 56.9055pt x 39.964pt.
 <./images/circle theorem 12.png, id=298, 352.31625pt x 263.18324pt>
 File: ./images/circle theorem 12.png Graphic file (type png)
 <use ./images/circle theorem 12.png>
-Package pdftex.def Info: ./images/circle theorem 12.png  used on input line 468.
+Package pdftex.def Info: ./images/circle theorem 12.png  used on input line 480.
 (pdftex.def)             Requested size: 85.35826pt x 63.76363pt.
 <./images/circle theorem 12 symbol.png, id=299, 83.1105pt x 59.0205pt>
 File: ./images/circle theorem 12 symbol.png Graphic file (type png)
 <use ./images/circle theorem 12 symbol.png>
-Package pdftex.def Info: ./images/circle theorem 12 symbol.png  used on input line 468.
+Package pdftex.def Info: ./images/circle theorem 12 symbol.png  used on input line 480.
 (pdftex.def)             Requested size: 56.9055pt x 40.41077pt.
 
-Underfull \hbox (badness 2961) in paragraph at lines 469--469
+Underfull \hbox (badness 2961) in paragraph at lines 481--481
 \OT1/cmr/m/n/10 the cir-cle, then the prod-uct
  []
 
 <./images/circle theorem 13.png, id=300, 357.13425pt x 332.442pt>
 File: ./images/circle theorem 13.png Graphic file (type png)
 <use ./images/circle theorem 13.png>
-Package pdftex.def Info: ./images/circle theorem 13.png  used on input line 469.
+Package pdftex.def Info: ./images/circle theorem 13.png  used on input line 481.
 (pdftex.def)             Requested size: 85.35826pt x 79.45291pt.
 <./images/circle theorem 13 symbol.png, id=301, 103.587pt x 63.23625pt>
 File: ./images/circle theorem 13 symbol.png Graphic file (type png)
 <use ./images/circle theorem 13 symbol.png>
-Package pdftex.def Info: ./images/circle theorem 13 symbol.png  used on input line 469.
+Package pdftex.def Info: ./images/circle theorem 13 symbol.png  used on input line 481.
 (pdftex.def)             Requested size: 56.9055pt x 34.73854pt.
 <./images/circle theorem 14.png, id=302, 479.99326pt x 269.20575pt>
 File: ./images/circle theorem 14.png Graphic file (type png)
 <use ./images/circle theorem 14.png>
-Package pdftex.def Info: ./images/circle theorem 14.png  used on input line 470.
+Package pdftex.def Info: ./images/circle theorem 14.png  used on input line 482.
 (pdftex.def)             Requested size: 85.35826pt x 47.87163pt.
 <./images/circle theorem 14 symbol.png, id=303, 51.7935pt x 51.7935pt>
 File: ./images/circle theorem 14 symbol.png Graphic file (type png)
 <use ./images/circle theorem 14 symbol.png>
-Package pdftex.def Info: ./images/circle theorem 14 symbol.png  used on input line 470.
+Package pdftex.def Info: ./images/circle theorem 14 symbol.png  used on input line 482.
 (pdftex.def)             Requested size: 56.9055pt x 56.90584pt.
 <./images/circle theorem 15.png, id=304, 443.85825pt x 248.127pt>
 File: ./images/circle theorem 15.png Graphic file (type png)
 <use ./images/circle theorem 15.png>
-Package pdftex.def Info: ./images/circle theorem 15.png  used on input line 471.
+Package pdftex.def Info: ./images/circle theorem 15.png  used on input line 483.
 (pdftex.def)             Requested size: 85.35826pt x 47.71631pt.
 <./images/circle theorem 15 symbol.png, id=305, 73.4745pt x 49.3845pt>
 File: ./images/circle theorem 15 symbol.png Graphic file (type png)
 <use ./images/circle theorem 15 symbol.png>
-Package pdftex.def Info: ./images/circle theorem 15 symbol.png  used on input line 471.
+Package pdftex.def Info: ./images/circle theorem 15 symbol.png  used on input line 483.
 (pdftex.def)             Requested size: 56.9055pt x 38.24846pt.
 [9] [10 <./images/circle theorem 1.png> <./images/circle theorem 1 symbol.png> <./images/circle theorem 2.png> <./images/circle theorem 2 symbol.png> <./images/circle theorem 3.png> <./images/circle theorem 3 symbol.png> <./images/circle theorem 4.png> <./images/circle theorem 4 symbol.png> <./images/circle theorem 5.png> <./images/circle theorem 5 symbol.png>] [11 <./images/circle theorem 6.png> <./images/circle theorem 6 symbol.png> <./images/circle theorem 7.png> <./images/circle theorem 7 symbol.png> <./images/circle theorem 8.png> <./images/circle theorem 8 symbol.png> <./images/circle theorem 9.png> <./images/circle theorem 9 symbol.png> <./images/circle theorem 10.png> <./images/circle theorem 10 symbol.png>] [12 <./images/circle theorem 11.png> <./images/circle theorem 11 symbol.png> <./images/circle theorem 12.png> <./images/circle theorem 12 symbol.png> <./images/circle theorem 13.png> <./images/circle theorem 13 symbol.png> <./images/circle theorem 14.png> <./images/circle theorem 14 symbol.png> <./images/circle theorem 15.png> <./images/circle theorem 15 symbol.png>] (mathematical specialists.aux)
 Package rerunfilecheck Info: File `"mathematical specialists".out' has not changed.
@@ -626,7 +626,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,20n,76p,621b,501s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "mathematical specialists.pdf" (15 pages, 1533698 bytes).
+Output written on "mathematical specialists.pdf" (15 pages, 1534340 bytes).
 PDF statistics:
  455 PDF objects out of 1000 (max. 8388607)
  72 named destinations out of 1000 (max. 500000)

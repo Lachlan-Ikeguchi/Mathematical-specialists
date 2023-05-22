@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1684756111 "d:/Projects/latex_projects/Mathematical specialists/mathematical specialists.tex" "mathematical specialists.pdf" "mathematical specialists" 1684756116 0
+["pdflatex"] 1684756503 "d:/Projects/latex_projects/Mathematical specialists/mathematical specialists.tex" "mathematical specialists.pdf" "mathematical specialists" 1684756508 0
   "C:/Users/lachl/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1684744857 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/lachl/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1684661547 23178960 87e0122854d77a951fa49bf96fc9e2b5 ""
   "C:/Users/lachl/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233948248 1004 54797486969f23fa377b128694d548df ""
@@ -98,7 +98,7 @@
   "C:/Users/lachl/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/lachl/AppData/Local/Programs/MiKTeX/tex/latex/undertilde/undertilde.sty" 1468852912 1250 918dcfabd49eae16312715c13055f775 ""
   "C:/Users/lachl/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388486852 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "d:/Projects/latex_projects/Mathematical specialists/mathematical specialists.tex" 1684756110 26863 e50391c79531dfbbb418b0b3470a272c ""
+  "d:/Projects/latex_projects/Mathematical specialists/mathematical specialists.tex" 1684756501 27385 2d8e802c9976d7b301fac9c08f98c932 ""
   "images/circle theorem 1 symbol.png" 1684725647 6080 2fa9369a4648272cf8df3a10f173ebe2 ""
   "images/circle theorem 1.png" 1684725545 52601 20b86cc66130dce2650ee2724374f7c4 ""
   "images/circle theorem 10 symbol.png" 1684754682 10419 6eb20aef50859595d9cebd7068d60aac ""
@@ -131,10 +131,10 @@
   "images/circle theorem 9.png" 1684754503 59198 a428c3c71a7ef5b8e40d9e78d627fe6b ""
   "images/dot product explination 2.png" 1684748381 28541 df3a153162a0a636f0dbbabc8e0443f4 ""
   "images/dot product explination.png" 1684747126 96844 0193ab6a90cc95fc5211dfa8ad66370a ""
-  "mathematical specialists.aux" 1684756116 6382 e5f0ce8b7bd0e561e71d60d7ba707966 "pdflatex"
-  "mathematical specialists.out" 1684756116 6404 4b974cfda427a12611168ca1999228df "pdflatex"
-  "mathematical specialists.tex" 1684756110 26863 e50391c79531dfbbb418b0b3470a272c ""
-  "mathematical specialists.toc" 1684756115 3941 8e38d4030ee7d031928276704eff5d86 "pdflatex"
+  "mathematical specialists.aux" 1684756508 6380 1614e351f3a5dab76bb1e180e76d6393 "pdflatex"
+  "mathematical specialists.out" 1684756508 6404 4b974cfda427a12611168ca1999228df "pdflatex"
+  "mathematical specialists.tex" 1684756501 27385 2d8e802c9976d7b301fac9c08f98c932 ""
+  "mathematical specialists.toc" 1684756507 3939 2b9fbe538d3c737ee2a34dbcf75d8a4b "pdflatex"
   (generated)
   "mathematical specialists.aux"
   "mathematical specialists.log"
