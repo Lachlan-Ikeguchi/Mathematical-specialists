@@ -520,6 +520,17 @@ INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uni
 INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
 INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\latex\gensymb\gensymb.sty
+INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\latex\gensymb\gensymb.sty
+INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\latex\gensymb\gensymb.sty
+INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\latex\gensymb\gensymb.sty
+INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\latex\gensymb\gensymb.sty
+INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\latex\gensymb\gensymb.sty
+INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\latex\gensymb\gensymb.sty
+INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\latex\gensymb\gensymb.sty
+INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\latex\gensymb\gensymb.sty
+INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\latex\gensymb\gensymb.sty
+INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\latex\gensymb\gensymb.sty
 INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
@@ -613,6 +624,18 @@ INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\lachl\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\images\dot product explination.png
+INPUT images\dot product explination.png
+INPUT .\images\dot product explination.png
+INPUT .\images\dot product explination.png
+INPUT .\images\dot product explination.png
+INPUT .\images\dot product explination.png
+INPUT .\images\dot product explination 2.png
+INPUT images\dot product explination 2.png
+INPUT .\images\dot product explination 2.png
+INPUT .\images\dot product explination 2.png
+INPUT .\images\dot product explination 2.png
+INPUT .\images\dot product explination 2.png
 INPUT .\images\circle theorem 1.png
 INPUT images\circle theorem 1.png
 INPUT .\images\circle theorem 1.png
@@ -625,6 +648,174 @@ INPUT .\images\circle theorem 1 symbol.png
 INPUT .\images\circle theorem 1 symbol.png
 INPUT .\images\circle theorem 1 symbol.png
 INPUT .\images\circle theorem 1 symbol.png
+INPUT .\images\circle theorem 2.png
+INPUT images\circle theorem 2.png
+INPUT .\images\circle theorem 2.png
+INPUT .\images\circle theorem 2.png
+INPUT .\images\circle theorem 2.png
+INPUT .\images\circle theorem 2.png
+INPUT .\images\circle theorem 2 symbol.png
+INPUT images\circle theorem 2 symbol.png
+INPUT .\images\circle theorem 2 symbol.png
+INPUT .\images\circle theorem 2 symbol.png
+INPUT .\images\circle theorem 2 symbol.png
+INPUT .\images\circle theorem 2 symbol.png
+INPUT .\images\circle theorem 3.png
+INPUT images\circle theorem 3.png
+INPUT .\images\circle theorem 3.png
+INPUT .\images\circle theorem 3.png
+INPUT .\images\circle theorem 3.png
+INPUT .\images\circle theorem 3.png
+INPUT .\images\circle theorem 3 symbol.png
+INPUT images\circle theorem 3 symbol.png
+INPUT .\images\circle theorem 3 symbol.png
+INPUT .\images\circle theorem 3 symbol.png
+INPUT .\images\circle theorem 3 symbol.png
+INPUT .\images\circle theorem 3 symbol.png
+INPUT .\images\circle theorem 4.png
+INPUT images\circle theorem 4.png
+INPUT .\images\circle theorem 4.png
+INPUT .\images\circle theorem 4.png
+INPUT .\images\circle theorem 4.png
+INPUT .\images\circle theorem 4.png
+INPUT .\images\circle theorem 4 symbol.png
+INPUT images\circle theorem 4 symbol.png
+INPUT .\images\circle theorem 4 symbol.png
+INPUT .\images\circle theorem 4 symbol.png
+INPUT .\images\circle theorem 4 symbol.png
+INPUT .\images\circle theorem 4 symbol.png
+INPUT .\images\circle theorem 5.png
+INPUT images\circle theorem 5.png
+INPUT .\images\circle theorem 5.png
+INPUT .\images\circle theorem 5.png
+INPUT .\images\circle theorem 5.png
+INPUT .\images\circle theorem 5.png
+INPUT .\images\circle theorem 5 symbol.png
+INPUT images\circle theorem 5 symbol.png
+INPUT .\images\circle theorem 5 symbol.png
+INPUT .\images\circle theorem 5 symbol.png
+INPUT .\images\circle theorem 5 symbol.png
+INPUT .\images\circle theorem 5 symbol.png
+INPUT .\images\circle theorem 6.png
+INPUT images\circle theorem 6.png
+INPUT .\images\circle theorem 6.png
+INPUT .\images\circle theorem 6.png
+INPUT .\images\circle theorem 6.png
+INPUT .\images\circle theorem 6.png
+INPUT .\images\circle theorem 6 symbol.png
+INPUT images\circle theorem 6 symbol.png
+INPUT .\images\circle theorem 6 symbol.png
+INPUT .\images\circle theorem 6 symbol.png
+INPUT .\images\circle theorem 6 symbol.png
+INPUT .\images\circle theorem 6 symbol.png
+INPUT .\images\circle theorem 7.png
+INPUT images\circle theorem 7.png
+INPUT .\images\circle theorem 7.png
+INPUT .\images\circle theorem 7.png
+INPUT .\images\circle theorem 7.png
+INPUT .\images\circle theorem 7.png
+INPUT .\images\circle theorem 7 symbol.png
+INPUT images\circle theorem 7 symbol.png
+INPUT .\images\circle theorem 7 symbol.png
+INPUT .\images\circle theorem 7 symbol.png
+INPUT .\images\circle theorem 7 symbol.png
+INPUT .\images\circle theorem 7 symbol.png
+INPUT .\images\circle theorem 8.png
+INPUT images\circle theorem 8.png
+INPUT .\images\circle theorem 8.png
+INPUT .\images\circle theorem 8.png
+INPUT .\images\circle theorem 8.png
+INPUT .\images\circle theorem 8.png
+INPUT .\images\circle theorem 8 symbol.png
+INPUT images\circle theorem 8 symbol.png
+INPUT .\images\circle theorem 8 symbol.png
+INPUT .\images\circle theorem 8 symbol.png
+INPUT .\images\circle theorem 8 symbol.png
+INPUT .\images\circle theorem 8 symbol.png
+INPUT .\images\circle theorem 9.png
+INPUT images\circle theorem 9.png
+INPUT .\images\circle theorem 9.png
+INPUT .\images\circle theorem 9.png
+INPUT .\images\circle theorem 9.png
+INPUT .\images\circle theorem 9.png
+INPUT .\images\circle theorem 9 symbol.png
+INPUT images\circle theorem 9 symbol.png
+INPUT .\images\circle theorem 9 symbol.png
+INPUT .\images\circle theorem 9 symbol.png
+INPUT .\images\circle theorem 9 symbol.png
+INPUT .\images\circle theorem 9 symbol.png
+INPUT .\images\circle theorem 10.png
+INPUT images\circle theorem 10.png
+INPUT .\images\circle theorem 10.png
+INPUT .\images\circle theorem 10.png
+INPUT .\images\circle theorem 10.png
+INPUT .\images\circle theorem 10.png
+INPUT .\images\circle theorem 10 symbol.png
+INPUT images\circle theorem 10 symbol.png
+INPUT .\images\circle theorem 10 symbol.png
+INPUT .\images\circle theorem 10 symbol.png
+INPUT .\images\circle theorem 10 symbol.png
+INPUT .\images\circle theorem 10 symbol.png
+INPUT .\images\circle theorem 11.png
+INPUT images\circle theorem 11.png
+INPUT .\images\circle theorem 11.png
+INPUT .\images\circle theorem 11.png
+INPUT .\images\circle theorem 11.png
+INPUT .\images\circle theorem 11.png
+INPUT .\images\circle theorem 11 symbol.png
+INPUT images\circle theorem 11 symbol.png
+INPUT .\images\circle theorem 11 symbol.png
+INPUT .\images\circle theorem 11 symbol.png
+INPUT .\images\circle theorem 11 symbol.png
+INPUT .\images\circle theorem 11 symbol.png
+INPUT .\images\circle theorem 12.png
+INPUT images\circle theorem 12.png
+INPUT .\images\circle theorem 12.png
+INPUT .\images\circle theorem 12.png
+INPUT .\images\circle theorem 12.png
+INPUT .\images\circle theorem 12.png
+INPUT .\images\circle theorem 12 symbol.png
+INPUT images\circle theorem 12 symbol.png
+INPUT .\images\circle theorem 12 symbol.png
+INPUT .\images\circle theorem 12 symbol.png
+INPUT .\images\circle theorem 12 symbol.png
+INPUT .\images\circle theorem 12 symbol.png
+INPUT .\images\circle theorem 13.png
+INPUT images\circle theorem 13.png
+INPUT .\images\circle theorem 13.png
+INPUT .\images\circle theorem 13.png
+INPUT .\images\circle theorem 13.png
+INPUT .\images\circle theorem 13.png
+INPUT .\images\circle theorem 13 symbol.png
+INPUT images\circle theorem 13 symbol.png
+INPUT .\images\circle theorem 13 symbol.png
+INPUT .\images\circle theorem 13 symbol.png
+INPUT .\images\circle theorem 13 symbol.png
+INPUT .\images\circle theorem 13 symbol.png
+INPUT .\images\circle theorem 14.png
+INPUT images\circle theorem 14.png
+INPUT .\images\circle theorem 14.png
+INPUT .\images\circle theorem 14.png
+INPUT .\images\circle theorem 14.png
+INPUT .\images\circle theorem 14.png
+INPUT .\images\circle theorem 14 symbol.png
+INPUT images\circle theorem 14 symbol.png
+INPUT .\images\circle theorem 14 symbol.png
+INPUT .\images\circle theorem 14 symbol.png
+INPUT .\images\circle theorem 14 symbol.png
+INPUT .\images\circle theorem 14 symbol.png
+INPUT .\images\circle theorem 15.png
+INPUT images\circle theorem 15.png
+INPUT .\images\circle theorem 15.png
+INPUT .\images\circle theorem 15.png
+INPUT .\images\circle theorem 15.png
+INPUT .\images\circle theorem 15.png
+INPUT .\images\circle theorem 15 symbol.png
+INPUT images\circle theorem 15 symbol.png
+INPUT .\images\circle theorem 15 symbol.png
+INPUT .\images\circle theorem 15 symbol.png
+INPUT .\images\circle theorem 15 symbol.png
+INPUT .\images\circle theorem 15 symbol.png
 INPUT mathematical specialists.aux
 INPUT .\mathematical specialists.out
 INPUT .\mathematical specialists.out

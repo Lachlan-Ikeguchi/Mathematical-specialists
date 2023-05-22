@@ -2,5 +2,8 @@
     "editor.wordWrap": "on",
     "cSpell.enableFiletypes": [
         "bibtex"
+    ],
+    "cSpell.words": [
+        "WOOLLOOMOOLOO"
     ]
 }

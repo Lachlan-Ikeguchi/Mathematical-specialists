@@ -7,10 +7,17 @@
 \usepackage{undertilde}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{gensymb}
 
 % user defined commands
 \newcommand{\Comb}[2]{{}^{#1}C_{#2}}
-\newcommand{\note}[1]{\text{\begin{center}\emph{NOTE: {#1}}\end{center}}}
+\newcommand{\note}[1]{\begin{center}\emph{NOTE: {#1}}\end{center}}
+
+% user defined environments
+\newenvironment{example}{For example:\\}{}
+
+% Change abstract name
+\renewcommand{\abstractname}{The pourpose}
 
 \graphicspath{ {./images} }
 
@@ -23,7 +30,7 @@
 \tableofcontents
 
 \begin{abstract}
-	This document was written to be used as a summary to help revise the content covered mathematical specialists.  For any inquiries, contact lachlanprivate@duck.com or through the discord server: https://discord.gg/6P8rddkXFr
+	This document was written to be used as a summary to help revise the content covered mathematical specialists.  For any inquiries, feedback, and further explanations, contact lachlanprivate@duck.com or through the discord server: https://discord.gg/6P8rddkXFr .  I encourage you to let me know of any topic I missed, how I could explain it better, or how it could be reworded or formatted to be more helpful in it's purpose.  The goal of this document is to be a comprehensive summary of everything you need to know.
 \end{abstract}
 
 \section{Important symbols}
@@ -241,6 +248,23 @@ The Pascal's triangle can be extended to the binomial theorem, where the rule fo
 	(a + b)^5 & = 1a^5b^0 + 5a^4b^1 + 10a^3b^2 + 10a^2b^3 + 5a^1b^4 + 1a^0b^5
 \end{align*}
 
+
+\section{Non-right-ange-triangles}
+\subsection{Sine rule}
+The sine rule is:
+$$
+	\frac{a}{\sin(A)} = \frac{b}{\sin(B)} = \frac{c}{\sin(C)}
+$$
+Where $a$, $b$, and $c$ are lengths of sides of a triangle, and $A$, $B$, and $C$ are angles opposite the sides.
+
+\subsection{Cosine rule}
+The cosine rule is:
+$$
+	c^2 = a^2 + b^2 -2ab\cos\theta
+$$
+Where $c$ is the length of side opposite $\theta$, and $a$ and $b$ are the other two sides.
+
+
 \section{Vectors}
 Vectors have a magnitude and a direction.  There are three ways for writing vectors, either the Cartesian form/component from or the polar form.  Vectors are represented by $\utilde{a}$.  the Cartesian form is written as:
 $$
@@ -289,8 +313,37 @@ Let $\utilde{w} = 3\hat{i} + 4\hat{j}$
 \end{align*}
 
 \subsection{Calculating the angle of a vector}
+To calculate the angle of a vector, use the sine, cosine, and tangent ratios.\\
+
+The trigonometric ratio are as follows:
+\begin{center}
+	\begin{tabular}{c|c}
+		Name    & Ratio                                       \\ \hline
+		Sine    & $\frac{\text{Opposite}}{\text{Hypotenous}}$ \\
+		Cosine  & $\frac{\text{Adjecent}}{\text{Hypotenous}}$ \\
+		Tangent & $\frac{\text{Opposite}}{\text{Adjecent}}$
+	\end{tabular}
+\end{center}
+
+\begin{example}
+	Let $\utilde{a} = 3\hat{i} + 4\hat{j}$\\
+	To calculate the angle of $\utilde{a}$, I will use the tangent rule:
+	\begin{align*}
+		\utilde{a}             & = 3\hat{i} + 4\hat{j} \\
+		\tan\theta             & = \frac{4}{3}         \\
+		\tan^{-1}(\frac{4}{3}) & = \theta              \\
+		                       & = 53.1301024\degree
+	\end{align*}
+\end{example}
 
 \subsection{The negative of a vector}
+The negative of a vector is the the vector of same length, but pointing in the opposite direction.
+
+\begin{example}
+	Let $\utilde{a} = -1\hat{i} + 3\hat{j}$\\
+	The inverse or the negative vector would be $-\utilde{a} = 1\hat{i} + -3\hat{j}$\\
+	As you can see, $\utilde{a}$ points off to the left and up, and $-\utilde{a}$ points to the right and down.
+\end{example}
 
 \subsection{Converting between component form and polar form}
 To convert between the component form and polar from, use the trigonometric ratios.\\
@@ -300,18 +353,55 @@ If given a polar vector, the component form is $\utilde{v} = r\cos(\theta)\hat{i
 % AB with vectors that start from the origin to points A and B
 
 \subsection{Unit vectors}
+To use a vector as the unit vector for others, use the formula:
+$$
+	\utilde{\hat{u}} = \frac{\utilde{u}}{|\utilde{u}|}
+$$
 
 \subsection{Dot products}
+The dot product represents one vector being projected onto the other vector, and multiplying the length of the projection by the length of the other vector.  This is calculated by:
+$$\utilde{a} \cdot \utilde{b} = |\utilde{a}||\utilde{b}|\cos\theta$$
+or
+$$\utilde{a} \cdot \utilde{b} = \utilde{a}_{\hat{i}} \utilde{b}_{\hat{i}} + \utilde{a}_{\hat{j}} \utilde{b}_{\hat{j}}$$
+
+\note{If the result is positive, the angle between the two vectors is between 0 to 90 \degree, if it is 0, it is at 90 \degree, and if it is a negative, it is between 90 to 180 \degree.}
+
 
 \subsection{Angle between two vectors}
+Using the two formulas for calculating the dot product, the equation for cosine can be derived:
+$$
+	\cos\theta = \frac{\utilde{a}_{\hat{i}} \utilde{b}_{\hat{i}} + \utilde{a}_{\hat{j}} \utilde{b}_{\hat{j}}}{|\utilde{a}||\utilde{b}|}
+$$
 
 \subsection{Scalar resolutes}
+The scalar resolute is the length of the resultant vector if it were to be projected onto the other vector where a line from the tip of the vector projected to the tip of the projection is perpendicular to the vector being projected onto:
+\begin{center}
+	\includegraphics[scale=0.5]{dot product explination}
+	\includegraphics[scale=0.5]{dot product explination 2}
+\end{center}
+This can be calculated using the formula:
+$$
+	\Vec{OA} = |\utilde{b}|\cos\theta
+$$
+Where $\Vec{OA}$ is the line between the origin and the tip of the projected vector, $\utilde{b}$ is the vector being projected, and $\theta$ is the angle between the two vectors.  Or:
+$$
+	\Vec{OA} = \frac{\utilde{a} \cdot \utilde{b}}{|\utilde{a}|}
+$$
+And also:
+$$
+	\Vec{OA} = \hat{\utilde{a}} \cdot \utilde{b}
+$$
 
 \subsection{Vector resolutes}
+The vector resolute is the same concept as the scalar resolute, but only that that we are concerned with the vector instead of the magnitude of the vector.  As we are projecting a vector onto another vector, we can simply multiply the result of the scalar resolute with the unit vector of the vector we are projecting onto:
+$$
+	\utilde{b}_{\parallel} = (\hat{\utilde{a}} \cdot \utilde{b}) \hat{\utilde{a}}
+$$
 
-\subsection{Sine rule}
-
-\subsection{Cosine rule}
+Additionally, the vector perpendicular to the vector being projected to is given by:
+$$
+	\utilde{b}_{\perp} = \utilde{b} - (\hat{\utilde{a}} \cdot \utilde{b}) \hat{\utilde{a}}
+$$
 
 \subsection{Applications of vectors}
 \subsubsection{Displacement and velocity}
@@ -355,9 +445,26 @@ $x$ satisfies $5^x = 2$, show that $x$ is irrational.++++
 \subsection{Terms}
 
 \subsection{Theorems}
-\begin{tabular}[center]{p{5cm}|p{3cm}|p{2cm}}
-	Theorem                                                                                                  & Diagram                                       & Symbol                                               \\ \hline
-	The angle at the centre of the circle is twice the angle at the circumference subtended on the same arc. & \includegraphics[width=3cm]{circle theorem 1} & \includegraphics[width=2cm]{circle theorem 1 symbol}
-\end{tabular}
+\begin{center}
+	\begin{tabular}[center]{p{5cm}|p{3cm}|p{2cm}}
+		Theorem                                                                                                                                                                                                                      & Diagram                                        & Symbol                                                \\ \hline
+		The angle at the centre of the circle is twice the angle at the circumference subtended on the same arc.                                                                                                                     & \includegraphics[width=3cm]{circle theorem 1}  & \includegraphics[width=2cm]{circle theorem 1 symbol}  \\
+		Angles at the circumference subtended by the same arc are congruent.                                                                                                                                                         & \includegraphics[width=3cm]{circle theorem 2}  & \includegraphics[width=2cm]{circle theorem 2 symbol}  \\
+		The angle in a semicircle is a right angle.                                                                                                                                                                                  & \includegraphics[width=3cm]{circle theorem 3}  & \includegraphics[width=2cm]{circle theorem 3 symbol}  \\
+		If a line from the center bisects a chord, it is perpendicular to the chord.  The converse implication is also true.                                                                                                         & \includegraphics[width=3cm]{circle theorem 4}  & \includegraphics[width=2cm]{circle theorem 4 symbol}  \\
+		If the chords are congruent, then they are equidistant from the centre of the center.                                                                                                                                        & \includegraphics[width=3cm]{circle theorem 5}  & \includegraphics[width=2cm]{circle theorem 5 symbol}  \\
+		If two chords intersect inside the circle, then the point of intersection divides each chord into two segments so that the product of the lengths of the segments for both chords is the same.                               & \includegraphics[width=3cm]{circle theorem 6}  & \includegraphics[width=2cm]{circle theorem 6 symbol}  \\
+		If chords are congruent, they subtend equal angles at the centre.                                                                                                                                                            & \includegraphics[width=3cm]{circle theorem 7}  & \includegraphics[width=2cm]{circle theorem 7 symbol}  \\
+		A tangent and a radius intersects at right angles.                                                                                                                                                                           & \includegraphics[width=3cm]{circle theorem 8}  & \includegraphics[width=2cm]{circle theorem 8 symbol}  \\
+		Two tangents drawn from an external point to a circle are congruent.                                                                                                                                                         & \includegraphics[width=3cm]{circle theorem 9}  & \includegraphics[width=2cm]{circle theorem 9 symbol}  \\
+		The angle formed by two tangents meeting at an external point is bisected by a straight line joining the centre of the circle to that external point.                                                                        & \includegraphics[width=3cm]{circle theorem 10} & \includegraphics[width=2cm]{circle theorem 10 symbol} \\
+		The angle formed by a tangent and a chord is congruent to the angle in the alternate segment.                                                                                                                                & \includegraphics[width=3cm]{circle theorem 11} & \includegraphics[width=2cm]{circle theorem 11 symbol} \\
+		If a secant (meeting the circle at A and B) and a tangent (meeting at circle at T) are drawn from an external point P, the square of the length of the tangent equals the product of the length to the circle on the secant. & \includegraphics[width=3cm]{circle theorem 12} & \includegraphics[width=2cm]{circle theorem 12 symbol} \\
+		If two secants intersect outside the circle, then the product of one external secant segment length and it's external length is equal to the product of the other secant lengths.                                            & \includegraphics[width=3cm]{circle theorem 13} & \includegraphics[width=2cm]{circle theorem 13 symbol} \\
+		The opposite angles of a cyclic quadrilateral are supplimentary.                                                                                                                                                             & \includegraphics[width=3cm]{circle theorem 14} & \includegraphics[width=2cm]{circle theorem 14 symbol} \\
+		The exterior angle of a cyclic quadrilateral is congruent to the inner opposite angle.                                                                                                                                       & \includegraphics[width=3cm]{circle theorem 15} & \includegraphics[width=2cm]{circle theorem 15 symbol}
+	\end{tabular}
+\end{center}
+
 
 \end{document}
