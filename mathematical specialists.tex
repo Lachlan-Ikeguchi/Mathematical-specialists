@@ -11,6 +11,8 @@
 \usepackage{tipa}
 \usepackage{pgfplots}
 \usepackage[british]{babel}
+\usepackage{pdfpages}
+\usepackage{parskip}
 
 % user defined commands
 \newcommand{\Comb}[2]{{}^{#1}C_{#2}}
@@ -29,24 +31,13 @@
 \tableofcontents
 
 \section{The purpose}
-This document was written to be used as a summary to help revise the content covered mathematical specialists.  For any inquiries, feedback, and further explanations, contact lachlanprivate@duck.com or through the discord server: https://discord.gg/6P8rddkXFr .  I encourage you to let me know of any topic I missed, how I could explain it better, or how it could be reworded or formatted to be more helpful in it's purpose.  The goal of this document is to be a comprehensive summary of everything you need to know.
+This document was written to be used as a summary to help revise the content covered mathematical specialists.  For any inquiries, feedback, and further explanations, contact lachlanprivate@duck.com or through the discord server: \url{https://discord.gg/6P8rddkXFr}.  I encourage you to let me know of any topic I missed, how I could explain it better, or how it could be reworded or formatted to be more helpful in its purpose.  The goal of this document is to be a comprehensive summary of everything you need to know.
 
-\chapter{Important symbols}
-\begin{center}
-	\begin{tabular}{l|lp{6cm}}
-		Symbol         & Mathematical definition                                                  & Simple definition                                                                                              \\ \hline
-		$\cup$         & Union                                                                    & $A$ \emph{and} $B$, or think as in 'add'.                                                                      \\
-		$\cap$         & Inter1                                                                   & $A$ \emph{or} $B$, or think as in 'multiply'.                                                                  \\
-		$n!$           & $n \times (n-1) \times (n-2) \times (n-3)... \times 3 \times 2 \times 1$ & The product of integers between the given value and 1.                                                         \\
-		$^nP_r$        & $\frac{n!}{(n-r)!}$                                                      & The number of combinations there are of length $r$ from a group of length $n$ where the order matters.         \\
-		$^nC_r$        & $\frac{\frac{n!}{(n-r)!}}{r!}$ or $\frac{n!}{r!(n - r)!}$                & The number of combinations there are of length $r$ from a group of length $n$ where the order does not matter. \\
-		$\binom{n}{r}$ & $^nC_r$                                                                  & The same as the combinations but in a different notation.
-	\end{tabular}
-\end{center}
+\includepdf{./images/formula-book.pdf}
 
 \chapter{Combinatorics}
 \section{Addition principle}
-If there are $n$ ways of performing operation $A$, and $m$ ways of performing operation $B$, there are $n + m$ ways of performing operation $A \cap B$.\\
+If there are $n$ ways of performing operation $A$, and $m$ ways of performing operation $B$, there are $n + m$ ways of performing operation $A \cap B$.
 
 As in, let there be 2 ways to perform task $A$, and 3 ways to perform task $B$.  If there is an option to perform $A$ \emph{or} $B$, there is a total of $2 + 3 = 5$ ways to perform an operation.
 
@@ -66,18 +57,15 @@ As in, let there be 4 ways to perform task $A$, and 5 ways to perform task $B$. 
 \end{center}
 Where there are $4 \times 5 = 20$ ways to perform the operations.
 
-
 \chapter{Factorials}
-Factorials is the result of multiplying all of the integers between the given integer and 1.  This is given the notation and formula:
+Factorials is the result of multiplying all the integers between the given integer and 1.  This is given the notation and formula:
 \[
 	n! = n \times (n-1) \times (n-2) \times (n-3)... \times 3 \times 2 \times 1
 \]
-
 \begin{align*}
 	5! & = 5 \times 4 \times 3 \times 2 \times 1 \\
 	   & = 120
 \end{align*}
-
 
 \section{Dividing factorials}
 When given some factorial over another factorial in such cases as:
@@ -107,7 +95,6 @@ Permutations is the number of ways of choosing $r$ things from $n$ distinct thin
 \[
 	^nP_r = \frac{n!}{(n-r)!}
 \]
-
 \begin{align*}
 	\Perm{6}{4} & = \frac{6!}{(6 - 4)!}                                                                 \\
 	            & = \frac{6!}{2!}                                                                       \\
@@ -116,7 +103,6 @@ Permutations is the number of ways of choosing $r$ things from $n$ distinct thin
 	            & = 6 \times 5 \times 4 \times 3                                                        \\
 	            & = 360
 \end{align*}
-
 
 \section{Permutations in a circle}
 In cases where the positions being concerned is a circle such as the permutations of a circular seating arrangement, if the standard permutations formula is applied, there are several over-counting of the like arrangement in a different perspective.  In these cases apply the formula:
@@ -173,7 +159,6 @@ Multiply together:
 \section{Special cases}
 \[^nP_n = n!\]
 \[^nP_0 = 1\]
-
 
 \chapter{Combinations}
 Combinations is the number of ways of choosing or selecting $r$ objects from $n$ distinct objects where \emph{order does not matter}.  This is given the notation and formula:
@@ -237,7 +222,6 @@ And there are $5!$ ways to arrange 5 objects, therefore
 	6 \times 10 \times 5! = 7200
 \]
 
-
 \section{Pascal's triangle}
 The Pascal's triangle is a pattern formed by adding the top 2 adjacent numbers and a 1 is placed on either side of the bottom row to resemble a triangle:
 \begin{center}
@@ -297,7 +281,6 @@ The cosine rule is:
 	c^2 = a^2 + b^2 -2ab\cos\theta
 \]
 Where $c$ is the length of side opposite $\theta$, and $a$ and $b$ are the other two sides.
-
 
 \chapter{Vectors}
 Vectors have a magnitude and a direction.  There are three ways for writing vectors, either the Cartesian form/component from or the polar form.  Vectors are represented by $\utilde{a}$.  the Cartesian form is written as:
@@ -493,7 +476,6 @@ There are some basic statements that are accepted as true without proving them. 
 		Angles at a point add to 360 \degree.                           & \includegraphics[width=6cm]{geometry theorem 11} & \includegraphics[width=2cm]{geometry theorem 11 symbol} \\ \hline
 	\end{tabular}
 \end{center}
-
 
 \chapter{Proofs}
 \section{Number systems}
@@ -737,10 +719,29 @@ To subtract a complex number, use the same formula as the addition:
 \end{align*}
 
 \subsection{Multiplication by another complex number}
+Let: $z := a + bi, w := c + di$
+\begin{align*}
+	zw & = (a \times c - b \times d) + (a \times d + b \times c)i \\
+	zw & = (6 - c0) + (1d + 8)i                                   \\
+	zw & = -1b + cai
+\end{align*}
 
 \section{Complex conjugates}
+The conjugate is as follows:
+\begin{center}
+	Let: $z := a + bi$\\
+	$\therefore$ the conjugate, or $\bar{z}$:\\
+	$\bar{z} := a - bi$.
+\end{center}
 
 \section{Division of complex numbers}
+Let: $z := a + bi, w := c + di$
+\begin{align*}
+	\frac{z}{w} & = \frac{a + bi}{c + di}\\
+	& = \frac{a + bi}{c + di} \times \frac{\bar{w}}{\bar{w}}\\
+	& = \frac{a + bi}{c + di} \times \frac{c - di}{c - di}\\
+	& = \frac{ac + }{}
+\end{align*}
 
 \section{The multiplicative inverse}
 
@@ -807,13 +808,26 @@ To subtract a complex number, use the same formula as the addition:
 \subsection{Translations}
 
 \subsection{Reflections}
+\subsubsection{x-axis}
+
+\subsubsection{y-axis}
+
+\subsubsection{Line: $y = x$}
+
+\subsubsection{Line: $y = -x$}
+
+\subsubsection{Line: $y = x \tan(\theta)$}
 
 \subsection{Rotations}
+\subsubsection{Clockwise}
+
+\subsubsection{Anti-Clockwise}
 
 \subsection{Dialations}
+\subsubsection{X-axis}
 
-\subsections{Combined translations}
+\subsubsection{Y-axis}
 
-
+\section{Combined translations}
 
 \end{document}
