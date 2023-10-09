@@ -7,7 +7,7 @@
 	"settings": {
 		"latex-workshop.bibtex-format.tab": "4 spaces",
 		"latex-workshop.latex.autoBuild.run": "never",
-		"latex-workshop.latex.outDir": "%DIR/build/%",
+		"latex-workshop.latex.outDir": "%DIR%/build/",
 		"latex-workshop.latex.clean.subfolder.enabled": true,
 		"latex-workshop.latex.recipe.default": "lastUsed",
 		"latex-workshop.linting.run": "onType",

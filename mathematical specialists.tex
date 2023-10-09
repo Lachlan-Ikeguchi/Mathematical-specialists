@@ -4,7 +4,7 @@
 \usepackage[margin=2cm,a4paper]{geometry}
 \usepackage{amsmath}
 \usepackage{amssymb}
-% \usepackage{undertilde}
+\usepackage{ {./dependencies/undertilde/undertilde} }
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{gensymb}
@@ -22,7 +22,6 @@
 % user defined commands
 \newcommand{\Comb}[2]{{}^{#1}C_{#2}}
 \newcommand{\Perm}[2]{{}^#1P_{#2}}
-\newcommand{\note}[1]{\begin{center}\emph{NOTE: {#1}}\end{center}}
 \newcommand{\arc}[1]{{\setbox9=\hbox{#1}\ooalign{\resizebox{\wd9}{\height}{\texttoptiebar{\phantom{A}}}\cr#1}}}
 
 \graphicspath{ {./images/} }
