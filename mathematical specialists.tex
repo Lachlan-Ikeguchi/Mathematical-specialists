@@ -14,6 +14,11 @@
 \usepackage{pdfpages}
 \usepackage{parskip}
 
+\newenvironment{generalInformation}{}{}
+\newenvironment{explanationOfTerms}{}{}
+\newenvironment{example}{}{}
+\newenvironment{note}{\begin{center}\em NOTE: \\}{\end{center}}
+
 % user defined commands
 \newcommand{\Comb}[2]{{}^{#1}C_{#2}}
 \newcommand{\Perm}[2]{{}^#1P_{#2}}
@@ -829,5 +834,27 @@ Let: $z := a + bi, w := c + di$
 \subsubsection{Y-axis}
 
 \section{Combined translations}
+
+
+
+\chapter{Summation notation}
+
+
+
+\chapter{Proofs}
+\section{Proof by induction}
+\begin{generalInformation}
+    Proof by induction means that if one is true, they all must be true 
+\end{generalInformation}
+\begin{example}
+    Let:
+    \[
+        1 + 2 + 3 + ... + n = \frac{n(n + 1)}{2}, n \greq 1
+    \]
+    
+\end{example}
+
+\section{Proof by divisibility}
+
 
 \end{document}

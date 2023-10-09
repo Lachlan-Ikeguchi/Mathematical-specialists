@@ -11,5 +11,11 @@
 		"cSpell.words": [
 			"noalign"
 		]
+	},
+	"extensions": {
+		"recommendations": [
+			"james-yu.latex-workshop",
+			"valentjn.vscode-ltex"
+		]
 	}
 }
